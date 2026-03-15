@@ -1,8 +1,8 @@
 # service virtualization using mountebank
 
 ### getting started
-```
-git clone https://github.com/sadabnepal/mountebank-service-virtualization.git
+```bash
+git clone https://github.com/sadabnepal/mountebank-api-mock.git &&
 cd mountebank-service-virtualization
 ```
 
