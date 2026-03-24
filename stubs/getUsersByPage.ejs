@@ -3,28 +3,7 @@
         {
             "equals": {
                 "method": "GET",
-                "path": "/api/users",
-                "query": {
-                    "page": 1
-                }
-            }
-        }
-    ],
-    "responses": [
-        {
-            "inject": "<%- stringify(filename, 'helper/fetchByQueryParam.js') %>"
-        }
-    ]
-},
-{
-    "predicates": [
-        {
-            "equals": {
-                "method": "GET",
-                "path": "/api/users",
-                "query": {
-                    "page": 2
-                }
+                "path": "/api/users"
             }
         }
     ],

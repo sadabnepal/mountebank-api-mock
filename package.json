@@ -6,7 +6,7 @@
   "scripts": {
     "start": "mb --configfile imposters.ejs --allowInjection --loglevel info"
   },
-  "dependencies": {
-    "mountebank": "^2.9.1"
+  "devDependencies": {
+    "@mbtest/mountebank": "^2.9.3"
   }
 }

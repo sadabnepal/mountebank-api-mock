@@ -3,7 +3,7 @@
 ### getting started
 ```bash
 git clone https://github.com/sadabnepal/mountebank-api-mock.git &&
-cd mountebank-service-virtualization
+cd mountebank-api-mock
 ```
 
 ### pre-requisite
@@ -35,3 +35,8 @@ Base URL: http://localhost:4545/api
 | POST        | `/login`               | 200         | `{"email": "test@test.com", "password": "test@123" }` |
 
 Note: default response will be empty object `{}` with response code: `404`
+
+
+Other Mocking libraries:
+ - https://mswjs.io/
+ - https://github.com/nock/nock
